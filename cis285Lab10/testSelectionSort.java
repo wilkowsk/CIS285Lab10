@@ -21,8 +21,8 @@ public class testSelectionSort {
 	public void test() {
 		testPositive();
 		testNegative();
-		//testMixed();
-		//testDuplicates();
+		testMixed();
+		testDuplicates();
 	}
 	public testSelectionSort() {
 	}
@@ -79,7 +79,7 @@ public class testSelectionSort {
 		Sortedarr[3] = 0;
 		Sortedarr[4] = 1;
 		Sortedarr[5] = 2;
-		Sortedarr[5] = 3;
+		Sortedarr[6] = 3;
 		/** add tests to check for this unit test **/
 		checkSel(arr, Sortedarr);
 	}
